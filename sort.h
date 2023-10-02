@@ -29,6 +29,7 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 int split(int *array, size_t size, int lower_bd, int top);
 void recursive_sort(int *array, size_t size, int lower, int upper);
 void shell_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 
 #endif

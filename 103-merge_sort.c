@@ -5,7 +5,7 @@
  * @array: array if ints
  * @size: size of the array
  * @lower: pointer to left array
- * @r: pointer to right
+ * @last: pointer to right
  */
 void merge(int *array, int *lower, int *last, size_t size)
 {
